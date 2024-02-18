@@ -1,4 +1,4 @@
-import { buttonVariants } from '@/shared/ui/button';
+import { buttonVariants } from '@/shared/lib/utils';
 
 export function Home() {
   return (
