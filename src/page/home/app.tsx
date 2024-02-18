@@ -5,7 +5,7 @@ import { PromoBlock } from '@/widgets/promo-block/promo-block';
 
 export function Home() {
   return (
-    <main className="grid items-center px-0">
+    <main className="grid items-center px-0 overflow-x-hidden">
       <PromoBlock />
       <Events />
       <FormSegment />
