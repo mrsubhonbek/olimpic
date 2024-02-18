@@ -41,12 +41,6 @@ export function AppFooter() {
             </p>
           </div>
         </div>
-        <div className="w-full absolute h-2 bg-primary/50 rounded-full mt-2">
-          <div className="w-4 h-4 rounded-full absolute -top-1 bg-primary"></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
       </div>
     </footer>
   );
