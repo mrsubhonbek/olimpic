@@ -1,43 +1,43 @@
-import { Button } from '@/shared/ui/button';
+/* eslint-disable no-irregular-whitespace */
 import { MainNav } from './ui/main-nav';
-import { Icons } from './ui/icon';
-import { buttonVariants } from '@/shared/lib/utils';
 
 export function AppHeader() {
   return (
-    <header>
-      <div className="container border-b flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+    <header className="bg-primary relative">
+      <div className="container  text-secondary flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0 ">
         <MainNav
           items={[
             {
-              title: 'Home',
-              href: '/',
+              title: 'Гастротуры',
+              href: '/#',
             },
             {
-              title: 'Dashboard',
-              href: '/',
+              title: 'Бронирование',
+              href: '/#',
+            },
+            {
+              title: 'О нас',
+              href: '/#',
+            },
+            {
+              title: 'Отзывы',
+              href: '/#',
+            },
+            {
+              title: 'Фотографии',
+              href: '/#',
+            },
+            {
+              title: 'Контакты',
+              href: '/#',
             },
           ]}
         />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
-            <a href={'#'} target="_blank" rel="noreferrer">
-              <div
-                className={buttonVariants({
-                  size: 'icon',
-                  variant: 'ghost',
-                })}
-              >
-                <Icons.gitHub className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
-              </div>
+            <a href="tel:+78007253232" rel="noreferrer">
+              8 800 725-32-32
             </a>
-            <Button size={'icon'} variant={'ghost'}>
-              <>
-                <Icons.setting className="h-4 w-4 fill-current" />
-                <span className="sr-only">Setting</span>
-              </>
-            </Button>
           </nav>
         </div>
       </div>
