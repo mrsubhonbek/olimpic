@@ -1,6 +1,7 @@
-import { Button, buttonVariants } from '@/shared/ui/button';
+import { Button } from '@/shared/ui/button';
 import { MainNav } from './ui/main-nav';
 import { Icons } from './ui/icon';
+import { buttonVariants } from '@/shared/lib/utils';
 
 export function AppHeader() {
   return (
